@@ -1,4 +1,31 @@
-   h3 {
+nav {
+  list-style-type: none;
+  background-color: #333;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 15px;
+}
+
+li {
+  display: inline;
+  padding: 50px;
+}
+
+li a {
+  text-decoration: none;
+  color: #ff99b9;
+  padding: 15px 50px;
+}
+
+li a:hover {
+  background-color: wheat;
+  color: black;
+  
+}
+
+h3 {
   color: white;
   text-decoration: underline 3px dotted;
   word-spacing: 2px;
@@ -15,7 +42,7 @@ img:hover {
 }
 
 h3:hover {
-  text-decoration: underline wavy teal 15px;
+  text-decoration: underline wavy wheat 15px;
   font-size: 150%;
   text-transform: uppercase;
 }
