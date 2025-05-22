@@ -1,3 +1,21 @@
-body {
+   h3 {
+  color: white;
+  text-decoration: underline 3px dotted;
+  word-spacing: 2px;
+}
 
+body {
+  background-color: #ff99b9;
+}  
+
+img:hover {
+  width: 500 px;
+  border: dotted pink;
+  border-radius: 5%;
+}
+
+h3:hover {
+  text-decoration: underline wavy teal 15px;
+  font-size: 150%;
+  text-transform: uppercase;
 }
