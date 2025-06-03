@@ -1,23 +1,8 @@
 <html>
   <head>
     <title>Conditional App</title>
-   
-  </head>
-  <body>
-    <nav>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="datasetapp.html">Conditional App</a></li>
-      <li><a href="conditionalapp.html">Dataset App</a></li>
-    </nav>
-
-    <h3>Conditional App</h3>
-<iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/CBQ247co-jGfPaj09zzv6AZ5SR3jJKBwxy1-p9e45sA/embed?nosource"></iframe>
-  </body>
-</html>
-
- <style>
+    <style>
       nav {
-        list-style-type: none;
         background-color: #333;
         width: 100%;
         position: fixed;
@@ -26,18 +11,24 @@
         padding: 15px;
       }
 
-      li {
-        display: inline;
-        padding: 50px;
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
       }
 
-      li a {
+      nav li {
+        display: inline;
+        padding: 0 50px;
+      }
+
+      nav li a {
         text-decoration: none;
         color: #ff99b9;
         padding: 15px 50px;
       }
 
-      li a:hover {
+      nav li a:hover {
         background-color: white;
         color: black;
       }
@@ -57,7 +48,7 @@
       body {
         background-color: #ff99b9;
         margin: 0;
-        padding-top: 80px; /* to make room for fixed nav */
+        padding-top: 80px; /* To make room for fixed nav */
         text-align: center;
       }
 
@@ -67,3 +58,19 @@
         border-radius: 5%;
       }
     </style>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="datasetapp.html">Conditional App</a></li>
+        <li><a href="conditionalapp.html">Dataset App</a></li>
+      </ul>
+    </nav>
+
+    <h3>Conditional App</h3>
+
+    <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/CBQ247co-jGfPaj09zzv6AZ5SR3jJKBwxy1-p9e45sA/embed?nosource"></iframe>
+  </body>
+</html>
