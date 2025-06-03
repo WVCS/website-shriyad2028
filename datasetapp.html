@@ -3,27 +3,33 @@
     <title>Dataset App</title>
     <style>
       nav {
-        list-style-type: none;
         background-color: #333;
         width: 100%;
         position: fixed;
         top: 0;
         left: 0;
-        padding: 15px;
+        padding: 15px 0;
       }
 
-      li {
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+
+      nav li {
         display: inline;
-        padding: 50px;
+        padding: 0 50px;
       }
 
-      li a {
+      nav li a {
         text-decoration: none;
         color: #ff99b9;
         padding: 15px 50px;
       }
 
-      li a:hover {
+      nav li a:hover {
         background-color: white;
         color: black;
       }
@@ -56,14 +62,20 @@
   </head>
   <body>
     <nav>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="datasetapp.html">Dataset App</a></li>
-      <li><a href="conditionalapp.html">Conditional App</a></li>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="datasetapp.html">Dataset App</a></li>
+        <li><a href="conditionalapp.html">Conditional App</a></li>
+      </ul>
     </nav>
 
     <h3>Dataset App</h3>
 
-<iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/TL05q-9wMDDYVTyWM6cTgYPiHHNoEZtIjzBqaFwbaY6/embed?nosource"></iframe>
+    <iframe
+      width="392"
+      height="620"
+      style="border: 0px;"
+      src="https://studio.code.org/projects/applab/TL05q-9wMDDYVTyWM6cTgYPiHHNoEZtIjzBqaFwbaY6/embed?nosource">
+    </iframe>
   </body>
 </html>
-
